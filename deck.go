@@ -17,7 +17,8 @@ func newDeck() deck {
 	cards := deck{}
 
 	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
-	cardValues := []string{"Ace", "Two", "Three", "Four"}
+	cardValues := []string{"Ace", "Two", "Three", "Four", "Five",
+		"Six", "Seven", "Eight", "Nine", "Ten", "J", "Q", "K"}
 
 	// Replace index i,j with _
 	// to avoid error for declare but not used
